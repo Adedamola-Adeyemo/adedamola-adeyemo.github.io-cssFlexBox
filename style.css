@@ -1,0 +1,82 @@
+html{
+    width: 1440px;
+}
+body{
+    padding: 5% 10%;
+    background-color: black;
+}
+p{
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 15px;
+    font-weight: 400;
+    font-family: url(https://fonts.google.com/specimen/Lexend+Deca);
+}
+a{
+    text-decoration: none;
+    color:white
+}
+nav{
+    
+    text-align: center;
+}
+nav li{
+    display:inline-block;
+    padding: 0 20px;
+}
+button:hover{
+    background-color: red;
+}
+h1,h2,h3,button{
+    color: hsl(0, 0%, 95%);
+    font-weight: 700;
+    font-family: url(https://fonts.google.com/specimen/Big+Shoulders+Display);
+}
+.flex-container{
+    display:flex;
+    background-color: hsl(0, 0%, 95%);
+    padding: 15% 14%;
+}
+.flex-item{
+    padding: 5%;
+}
+button{
+    padding: 10px 20px;
+    border: white;
+    border-radius: 20px;
+}
+.grid-container{
+    background-color: rgb(3, 3, 97);
+    display:grid;
+    gap: 10px;
+    width: 60%;
+    margin: auto;
+    padding:5%;
+}
+.grid-item{
+    padding: 50px;
+}
+.item1{
+    background-color: red;
+    grid-column : 1 / span 3;
+    grid-row:1;
+}
+.item2{
+    background-color: yellow;
+    grid-column : 4 / span 2;
+    grid-row:1;
+}
+.item3{
+    background-color: rgb(11, 241, 145);
+    grid-column : 3 / span 3;
+    grid-row:2;
+}
+.item4{
+    background-color: rgb(11, 241, 145);;
+    grid-column : 3 / span 3;
+    grid-row:3;
+}
+.item5{
+    background-color: blue;
+    grid-column:1 / span 2;
+    grid-row: 2 / span 2;
+}
